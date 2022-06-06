@@ -1,0 +1,173 @@
+*{
+    font-family: 'rubik'; 
+}
+
+.content {
+    background-color: yellow;
+}
+.heading_icon {
+    color: hwb(205 90% 5%);
+    padding-left: 50px;
+    align-self: center;
+    
+}
+.heading {
+    background-color: black;
+    width: 100%;
+    height: 48px; 
+    display: flex;
+    position: fixed;
+    margin-top: -20px;    
+}
+
+.nav_1_list {
+   padding-left: 40px;
+}
+
+.nav_1 {
+    list-style: none;
+    display: flex; 
+    padding-left: 700px;
+}
+
+.home_sect {
+     background-color:rgba(98, 190, 197, 0.22);
+     height: 925px;
+     background: url(./images/image_1.png) no-repeat;
+     width: 100%;
+     z-index: -1;
+    
+}
+
+#hs_1 {
+    background-color:none;
+    width: 606px;
+    height: 144px;
+    font-size: 50px;
+    padding-top: 6rem;
+    padding-left: 3rem;
+}
+
+#hs_2 {
+    background-color:none;
+    width: 320px;
+    height: 295px;
+    float: right;
+    font-size: 48px;
+    padding-top: 15%;
+    padding-right: 4%;
+     
+}
+.profile_sect {
+    background-color: rgb(252, 248, 248);
+    display: flex;
+    
+}
+.profile_sect_1 {
+    font-size: 48px;
+}   
+
+ .section_heading {
+     color: black;
+     font-weight: 700;
+     font-size: 48px;
+     margin-left: 70px;
+ }   
+
+.profile_image_one {
+    width: 329.32px;
+    height: 368.29px;
+    left: 189px;
+    padding-left: 140px;
+    padding-bottom: 20px;
+    margin-top: -30px;     
+}
+
+.profile_text_two {
+    font-weight: 400;
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+.profile_sect_2 {
+    /* background-color: chartreuse;    */
+    padding: 150px 50px ;
+}
+
+.profile_image_two {
+    width: 596px;
+    height: 290px;
+    left: 699px;   
+}
+
+.profile_text_one {
+    font-weight: 400px;
+    font-size: 30px;
+    margin-left: 70px;
+}
+
+.project_section {
+    background-color: rgb(211, 213, 214);
+}
+.project_top {
+    display: flex;
+    align-self: flex-start;
+    padding-left: 70px;
+}
+ .project_work {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px  
+ }
+
+.project_text {
+    font-weight: 400;
+    font-size: 30px;
+   
+}
+
+#text_two {
+    padding-left: 80%;
+    width: 419px;
+}
+
+.span_heading {
+    font-weight: 700;
+     font-size: 48px;
+} 
+
+.project_button {
+    width: 344px;
+    height: 58px;
+    background: rgba(54, 99, 132, 0.54);
+    margin: 30px 10px 70px 60px;
+    border-radius: 10px;
+    border: 0;
+}
+
+.contact-form {
+    background-color: rgb(176, 184, 181);
+}
+
+.social-link {
+    background-color: rgb(176, 184, 181);
+    padding-left: 500px;
+    display: flex;
+    align-items: center;
+
+}
+.fa-brands{
+    margin-left: 30px;
+}    
+
+footer {
+    background-color: #1b1b1f;
+    padding: 0.1em;
+    text-align: center;
+    color: white;   
+}
+
+.span_question{
+    font-weight: 700;
+    font-size: 48px;
+}
